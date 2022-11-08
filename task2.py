@@ -4,10 +4,9 @@
 # Все конфеты оппонента достаются сделавшему последний ход. 
 import random
 
-quant = 30
-lst = ["Таня", "Мартин"]
+quant = 2021
+lst = ["Игрок 1", "Игрок 2"]
 rnd = random.randint(0, len(lst) - 1)
-winner = 0
 
 def Game(quant, id):
     if quant > 0:
