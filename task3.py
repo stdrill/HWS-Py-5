@@ -2,12 +2,12 @@
 
 import random
 
-board = list(range(1,10))
+board_size = list(range(1,10))
 
-def design_board(board):
-    print('-'*12)
+def board(size):
+    print('-'*13)
     for i in range(3):
-        print('|', board[0+i*3],'|', board[1+i*3], '|', board[2+i*3], '|')
-        print('-'*12)
+        print('|', size[0+i*3],'|', size[1+i*3], '|', size[2+i*3], '|')
+        print('-'*13)
 
-print(design_board(board))
+print(board(board_size))
