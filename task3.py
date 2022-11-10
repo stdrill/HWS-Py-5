@@ -50,7 +50,7 @@ def game(board):
         if counter > 4:
             step = win_check(board)
             if step:
-                print (step, "Победа!")
+                print ("Игрок " + step + " с победой!")
                 win = True
                 break
         if counter == 9:
