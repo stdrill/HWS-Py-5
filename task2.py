@@ -4,7 +4,7 @@
 # Все конфеты оппонента достаются сделавшему последний ход. 
 import random
 
-quant = 221
+quant = 2021
 # lst = ["Игрок 1", "Игрок 2"]
 # rnd = random.randint(0, len(lst) - 1)
 
